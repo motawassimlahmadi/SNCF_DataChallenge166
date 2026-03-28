@@ -71,6 +71,6 @@ SNCF/
 
 ## Resultats
 
-Meilleur score obtenu : **MAE = 0.7145**
+Meilleur score obtenu : **MAE = 0.6559** - Top 10 %
 
 
