@@ -67,10 +67,10 @@ SNCF/
 1. **EDA** : Analyse exploratoire et visualisation des donnees (`notebooks/experiment.ipynb`)
 2. **Feature engineering** : Creation de variables supplementaires a partir des donnees contextuelles et passees
 3. **Modelisation** : Ensemble de modeles (XGBoost, LightGBM, CatBoost) avec optimisation des hyperparametres via Optuna (`notebooks/modelling.ipynb`)
-4. **Validation** : Cross-validation temporelle (TimeSeriesSplit)
+4. **Validation** : Cross-validation temporelle (CustomTimeSeriesSplit)
 
 ## Resultats
 
-Meilleur score obtenu : **MAE = 0.6559** - Top 10 %
+Meilleur score obtenu : **MAE = 0.6554** - Top 10 %
 
 
