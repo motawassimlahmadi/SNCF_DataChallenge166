@@ -1,5 +1,9 @@
 # Data Challenge 166 - Transilien SNCF Voyageurs
 
+## Resultats
+
+> Meilleur score obtenu : **MAE = 0.6554** - Top 10 %
+
 ## Contexte
 
 Transilien SNCF Voyageurs est l'operateur des trains de banlieue en Ile-de-France, faisant circuler plus de 6 200 trains par jour pour 3,4 millions de voyageurs. Pour ameliorer l'experience voyageur, un temps d'attente estime est affiche en gare. Ce challenge explore la possibilite d'ameliorer la qualite de ces previsions.
@@ -69,8 +73,5 @@ SNCF/
 3. **Modelisation** : Ensemble de modeles (XGBoost, LightGBM, CatBoost) avec optimisation des hyperparametres via Optuna (`notebooks/modelling.ipynb`)
 4. **Validation** : Cross-validation temporelle (CustomTimeSeriesSplit)
 
-## Resultats
-
-Meilleur score obtenu : **MAE = 0.6554** - Top 10 %
 
 
